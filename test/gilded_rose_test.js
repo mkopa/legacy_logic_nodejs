@@ -140,7 +140,9 @@ test("conjured item with small quality", verify({
     sellIn: {before: 2, after: 1},
     quality: {before: 1, after: 0}
 }));
-
+// thaler - nudges
+// effective
+// productive
 test("conjured item after sell date", verify({
     itemName: "Conjured Mana Cake",
     sellIn: {before: 0, after: -1},
