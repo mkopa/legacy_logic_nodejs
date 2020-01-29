@@ -2,11 +2,13 @@ const Normal = require("./normal");
 const Brie = require("./brie");
 const Backstage = require("./backstage");
 const Item = require("./item");
+const Conjured = require("./conjured");
 
 const strategies = {
     "Aged Brie": Brie,
     "Sulfuras, Hand of Ragnaros": Item,
-    "Backstage passes to a TAFKAL80ETC concert": Backstage
+    "Backstage passes to a TAFKAL80ETC concert": Backstage,
+    "Conjured Mana Cake": Conjured
 };
 
 class Shop {
