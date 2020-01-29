@@ -50,6 +50,9 @@ class Shop {
             }
         }
 
+        console.log("Plackiiii!!! xD");
+        console.log("TSH pozdrawia!");
+
         return this.items;
     }
 }
