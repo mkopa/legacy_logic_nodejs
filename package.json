@@ -1,9 +1,11 @@
 {
   "scripts": {
-    "test": "tape test/*.js | faucet"
+    "test": "tape test/*.js | faucet",
+    "coverage": "nyc --reporter=html tape test/*.js"
   },
   "devDependencies": {
     "faucet": "0.0.1",
+    "nyc": "15.0.0",
     "tape": "4.13.0"
   }
 }
